@@ -1,0 +1,25 @@
+.navi-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .navi-item {
+    background-color: wheat;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+
+    margin: 10px;
+    i {
+      font-size: 50px;
+    }
+
+  }
+  .active {
+    border-width: 5px;
+  }
+
+}
