@@ -3,7 +3,7 @@ import {Header} from 'layout/header/Header';
 import {LanguageView} from 'views/LanguageView';
 import {VocabularyView} from 'views/VocabularyView';
 import {ExerciseView} from 'views/ExerciseView';
-import {connectToRouter, matchRoute} from './router/metamaticRouter';
+import {connectToRouter, matchRoute} from 'metamatic';
 
 export class App extends Component {
 

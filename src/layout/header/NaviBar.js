@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {disconnectFromStores} from 'metamatic';
-import {connectToRouter, redirectTo} from '../../router/metamaticRouter';
+import {connectToRouter, disconnectFromStores, redirectTo} from 'metamatic';
 
 const classNames = require('classnames');
 
