@@ -5,6 +5,10 @@ A demo app for showcasing the Metamatic framework and testing Metamatic in diffe
 
 A minimal demo app written in ES6 on React to demonstrate & test routing with [Metamatic](https://github.com/develprr/metamatic-framework) framework.
 
+## Live Demo
+
+Check out this demo built. deployed and hosted live [here](https://metamatic-demo.herokuapp.com/router/)!
+
 ## Installation
 
 ```js
