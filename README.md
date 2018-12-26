@@ -1,4 +1,4 @@
-# A Metamatic Language App
+# A Metamatic Router Demo
 A demo app for showcasing the Metamatic framework and testing Metamatic in different real use cases.
 
 ### Introduction
