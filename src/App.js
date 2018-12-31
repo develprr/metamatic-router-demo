@@ -10,11 +10,12 @@ export class App extends Component {
   constructor(props) {
     super(props);
     this.state = {};
+    window.onpopstate = (event) => {
+      console.log('Popstate event', event);
+    }
   }
 
-  componentDidMount = () => {
-    connectToRouter(this, () => this.setState({}));
-  }
+  componentDidMount = () => connectToRouter(this, () => this.setState({}));
 
   render = () => (
       <div className="meta-lang">
