@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {connectToRouter, disconnectFromRouter, redirectTo} from '@metamatic.net/metamatic-router';
+import {connectToRouter, disconnectFromRouter, redirectTo} from 'router/MetamaticRouter';
 
 const classNames = require('classnames');
 
@@ -9,6 +9,7 @@ class NaviItem extends Component {
     super(props);
     this.state = {};
   }
+
   componentDidMount = () => connectToRouter(this, (path) => this.setState({path}));
 
   componentWillUnmount = () => disconnectFromRouter(this);

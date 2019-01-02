@@ -7,9 +7,9 @@
     "react-scripts": "^2.1.1"
   },
   "dependencies": {
-    "@metamatic.net/metamatic-router": "2.5.3",
     "axios": "0.18.0",
     "classnames": "^2.2.6",
+    "metamatic": "^2.5.3",
     "react": "16.7.0",
     "react-dom": "16.7.0"
   },
